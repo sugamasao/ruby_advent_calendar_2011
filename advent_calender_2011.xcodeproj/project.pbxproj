@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C28721A214A60B550014AE1D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28721A114A60B550014AE1D /* Cocoa.framework */; };
+		C28721A414A60B550014AE1D /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28721A314A60B550014AE1D /* MacRuby.framework */; };
+		C28721AB14A60B550014AE1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C28721A914A60B550014AE1D /* InfoPlist.strings */; };
+		C28721AD14A60B550014AE1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C28721AC14A60B550014AE1D /* main.m */; };
+		C28721B214A60B550014AE1D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C28721B014A60B550014AE1D /* MainMenu.xib */; };
+		C28721B514A60B550014AE1D /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = C28721B414A60B550014AE1D /* rb_main.rb */; };
+		C28721B714A60B550014AE1D /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = C28721B614A60B550014AE1D /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C287219D14A60B550014AE1D /* advent_calender_2011.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = advent_calender_2011.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28721A114A60B550014AE1D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C28721A314A60B550014AE1D /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		C28721A814A60B550014AE1D /* advent_calender_2011-Info.plist */ = {isa = PBXFileReference; path = "advent_calender_2011-Info.plist"; sourceTree = "<group>"; };
+		C28721AA14A60B550014AE1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C28721AC14A60B550014AE1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C28721AE14A60B550014AE1D /* advent_calender_2011-Prefix.pch */ = {isa = PBXFileReference; path = "advent_calender_2011-Prefix.pch"; sourceTree = "<group>"; };
+		C28721B114A60B550014AE1D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C28721B414A60B550014AE1D /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		C28721B614A60B550014AE1D /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C287219A14A60B550014AE1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28721A214A60B550014AE1D /* Cocoa.framework in Frameworks */,
+				C28721A414A60B550014AE1D /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C287219214A60B550014AE1D = {
+			isa = PBXGroup;
+			children = (
+				C28721A614A60B550014AE1D /* advent_calender_2011 */,
+				C28721A014A60B550014AE1D /* Frameworks */,
+				C287219E14A60B550014AE1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C287219E14A60B550014AE1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C287219D14A60B550014AE1D /* advent_calender_2011.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C28721A014A60B550014AE1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C28721A114A60B550014AE1D /* Cocoa.framework */,
+				C28721A314A60B550014AE1D /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C28721A614A60B550014AE1D /* advent_calender_2011 */ = {
+			isa = PBXGroup;
+			children = (
+				C28721B614A60B550014AE1D /* AppDelegate.rb */,
+				C28721AF14A60B550014AE1D /* Resources */,
+				C28721B314A60B550014AE1D /* Other Sources */,
+				C28721A714A60B550014AE1D /* Supporting Files */,
+			);
+			path = advent_calender_2011;
+			sourceTree = "<group>";
+		};
+		C28721A714A60B550014AE1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C28721A814A60B550014AE1D /* advent_calender_2011-Info.plist */,
+				C28721A914A60B550014AE1D /* InfoPlist.strings */,
+				C28721AC14A60B550014AE1D /* main.m */,
+				C28721AE14A60B550014AE1D /* advent_calender_2011-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C28721AF14A60B550014AE1D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C28721B014A60B550014AE1D /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C28721B314A60B550014AE1D /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C28721B414A60B550014AE1D /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		C28721A514A60B550014AE1D /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = C28721BD14A60B550014AE1D /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		C287219C14A60B550014AE1D /* advent_calender_2011 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28721BA14A60B550014AE1D /* Build configuration list for PBXNativeTarget "advent_calender_2011" */;
+			buildPhases = (
+				C287219914A60B550014AE1D /* Sources */,
+				C287219A14A60B550014AE1D /* Frameworks */,
+				C287219B14A60B550014AE1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = advent_calender_2011;
+			productName = advent_calender_2011;
+			productReference = C287219D14A60B550014AE1D /* advent_calender_2011.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C287219414A60B550014AE1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C287219714A60B550014AE1D /* Build configuration list for PBXProject "advent_calender_2011" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C287219214A60B550014AE1D;
+			productRefGroup = C287219E14A60B550014AE1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C287219C14A60B550014AE1D /* advent_calender_2011 */,
+				C28721A514A60B550014AE1D /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C287219B14A60B550014AE1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28721AB14A60B550014AE1D /* InfoPlist.strings in Resources */,
+				C28721B214A60B550014AE1D /* MainMenu.xib in Resources */,
+				C28721B514A60B550014AE1D /* rb_main.rb in Resources */,
+				C28721B714A60B550014AE1D /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C287219914A60B550014AE1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28721AD14A60B550014AE1D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C28721A914A60B550014AE1D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C28721AA14A60B550014AE1D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C28721B014A60B550014AE1D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C28721B114A60B550014AE1D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C28721B814A60B550014AE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C28721B914A60B550014AE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C28721BB14A60B550014AE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "advent_calender_2011/advent_calender_2011-Prefix.pch";
+				INFOPLIST_FILE = "advent_calender_2011/advent_calender_2011-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C28721BC14A60B550014AE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "advent_calender_2011/advent_calender_2011-Prefix.pch";
+				INFOPLIST_FILE = "advent_calender_2011/advent_calender_2011-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C28721BE14A60B550014AE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C28721BF14A60B550014AE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C287219714A60B550014AE1D /* Build configuration list for PBXProject "advent_calender_2011" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28721B814A60B550014AE1D /* Debug */,
+				C28721B914A60B550014AE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28721BA14A60B550014AE1D /* Build configuration list for PBXNativeTarget "advent_calender_2011" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28721BB14A60B550014AE1D /* Debug */,
+				C28721BC14A60B550014AE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C28721BD14A60B550014AE1D /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28721BE14A60B550014AE1D /* Debug */,
+				C28721BF14A60B550014AE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C287219414A60B550014AE1D /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'advent_calender_2011' target in the 'advent_calender_2011' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
