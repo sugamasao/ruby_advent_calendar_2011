@@ -1,4 +1,4 @@
-= Ruby AdventCalendar 2011のプロジェクト一式
+# Ruby AdventCalendar 2011のプロジェクト一式
 AdventCalendar 25日目の成果です。
 MacRubyで作るMacアプリについて。
 
